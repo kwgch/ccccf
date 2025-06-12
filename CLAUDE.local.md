@@ -25,13 +25,15 @@ This project MAY have Claude-Flow installed. If available, it's a powerful tool 
 
 **First, check if Claude-Flow is available:**
 ```bash
+# Check global installation
+which claude-flow
+
 # Check for local executable
 ls -la ./claude-flow
 
-# Or check global installation
-which claude-flow
-
-# If not found, continue with standard development
+# If not found, install it:
+npm install -g deno
+npm install -g claude-flow
 ```
 
 ## When to Use Claude-Flow
